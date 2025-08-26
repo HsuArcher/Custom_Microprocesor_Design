@@ -1,9 +1,0 @@
-0    // Load ACC
-5    //   value to load
-5    // SUB ACC
-1    //   value to sub
-9    // BRZ
-7    // 
-8    // JUMP
-1    //   
-2    // STOP
