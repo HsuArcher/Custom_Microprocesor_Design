@@ -1,0 +1,50 @@
+v2.0 raw
+1205 # LOAD ACC; Load IR
+0234 #	Load ACC
+0000 #	unused
+0000 #	unused
+
+1205 # ADD ACC; Load IR
+0294 #	ADD
+0000 #	unused
+0000 # 	unused
+
+1205 #  STOP; Load IR
+1000 #	STOP
+0000 #	unused
+0000 #	unused
+
+1205 #  AND; Load IR
+0214 #	AND
+0000 #	unused
+0000 #	unused
+
+1205 #  ZERO; Load IR
+0010 #	ZERO
+0000 #	unused
+0000 #	unused
+
+1205 #  SUB; Load IR
+02D4 #	SUB
+0000 #	unused
+0000 #	unused
+
+1205 #  STORE ACC; Load IR
+2304 #  LOAD ACC FROM RAM
+000A #  STORE ACC
+0000 #  unused
+
+1205 #  2s Complement; Load IR
+00F8 #  2s Complement
+0000 #  unused
+0000 #  unused
+
+1205 # JUMP; Load IR
+0604 # JUMP to DATA_IN+1
+0000 #
+0000 #
+
+1205 # BRZ; Load IR
+0A04 # BRZ to DATA_IN+1 when ACC is 0
+0000 #
+0000 #
