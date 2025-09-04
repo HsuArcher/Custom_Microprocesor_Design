@@ -21,8 +21,8 @@ Microprocessor designed in Digital, tested with Iverilog, with RAM integration a
    -  ram_vals_2.txt
 2. open Windows Powershell
 3. Copy ram_vals_1.txt to ram_vals.txt with the command:
-      cp ram_vals_1.txt ram_vals.txt
+   -   cp ram_vals_1.txt ram_vals.txt
 5. The board attached to the computer should stop flashing and
 the seven-segment displays will all be 0. The commands are:
-      quartus_sh -t .\microprocessor.tcl
-      quartus_pgm -c1 -mjtag -o”p;microprocessor.sof”
+   -   quartus_sh -t .\microprocessor.tcl
+   -   quartus_pgm -c1 -mjtag -o”p;microprocessor.sof”
